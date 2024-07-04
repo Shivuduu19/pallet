@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    color: rgb(21, 15, 4);
+    line-height: 1;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: rgb(#fff);
+
+}
+
+@media screen and (max-width: 1680px) and (min-width: 992px) {
+
+    html {
+        font-size: calc(0.16781567489114657rem + 0.43541364296081275vw);
+    }
+}
+
+html {
+    font-size: 0.625rem;
+}
